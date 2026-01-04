@@ -43,38 +43,57 @@ invoice-management-system/
 │
 
 ├── invoice-app/# Frontend (React)
+
 │   ├── src/
+
 │   ├── public/
+
 │   ├── README.md
+
+
 │   └── package.json
+
 │
 
 
 ├── backend/              # Backend (Node + Express)
+
 │   ├── server.js
+
 │   ├── invoice.db
+
 │   ├── README.md
+
 │   └── package.json
 
 
 │
+
 ├── INVOICE-APPLICATION-IMAGES/   # Screenshots
+
 │
+
 └── README.md             # Main documentation
 
 
 
 ▶️ How to Run Locally
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/Ganesh062/invoice-management-system.git
+
 cd invoice-management-system
 
 
 
 
 2️⃣ Start Backend
+
 cd backend
+
 npm install
+
 node server.js
 
 **Backend runs at:
@@ -87,7 +106,9 @@ node server.js
 Open a new terminal:
 
 cd invoice-app
+
 npm install
+
 npm start
 
 **Frontend runs at:
