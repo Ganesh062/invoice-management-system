@@ -1,0 +1,107 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f8;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+
+div {
+  padding: 20px;
+}
+
+
+h2 {
+  color: #1f2937;
+  margin-bottom: 20px;
+}
+
+
+form {
+  background-color: #ffffff;
+  padding: 25px;
+  max-width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/*Buttons*/
+button {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+/* Invoice Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  margin-top: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+th {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background-color: #f1f5f9;
+}
+
+/*  Action Buttons */
+td button {
+  background-color: #ef4444;
+}
+
+td button:hover {
+  background-color: #b91c1c;
+}
+
+/* Link Text*/
+span {
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+span:hover {
+  text-decoration: underline;
+}
