@@ -39,27 +39,37 @@ This application allows users to create, view, and delete invoices with a clean 
 📂 Project Structure
 
 invoice-management-system/
+
 │
-├── invoice-app/          # Frontend (React)
+
+├── invoice-app/# Frontend (React)
 │   ├── src/
 │   ├── public/
 │   ├── README.md
 │   └── package.json
 │
+
+
 ├── backend/              # Backend (Node + Express)
 │   ├── server.js
 │   ├── invoice.db
 │   ├── README.md
 │   └── package.json
+
+
 │
 ├── INVOICE-APPLICATION-IMAGES/   # Screenshots
 │
 └── README.md             # Main documentation
 
+
+
 ▶️ How to Run Locally
 1️⃣ Clone the Repository
 git clone https://github.com/Ganesh062/invoice-management-system.git
 cd invoice-management-system
+
+
 
 
 2️⃣ Start Backend
@@ -85,29 +95,29 @@ npm start
      http://localhost:3000
 
 
-🔗 API Endpoints (Backend)
-
-Method	    Endpoint        	Description
-GET     	  /invoices	     Fetch all invoices
-POST	      /invoices     	Add new invoice
-DELETE	   /invoices/:id  	Delete invoice
-
 
 🎯 Evaluation Checklist (Covered)
 
 ✅ CRUD Operations
+
 ✅ Clean UI
+
 ✅ Organized code structure
+
 ✅ Full-stack implementation
+
 ✅ Screenshots included
+
 ✅ Clear setup instructions
 
 
 
 ✅ Conclusion
 
+
 The Invoice Management System demonstrates a complete full-stack application workflow, covering frontend UI development, backend API integration, and database persistence.
 It highlights my ability to design clean user interfaces, implement CRUD functionality, and structure a project following real-world development practices.
+
 
 This project reflects my understanding of React, Node.js, Express, and SQLite, along with proper GitHub version control and documentation.
 It is built with scalability in mind and can be easily extended with features like authentication, filtering, and cloud deployment.
