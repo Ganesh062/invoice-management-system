@@ -15,11 +15,18 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "concurrently": "^8.2.2"
+  },
   "scripts": {
-    "start": "react-scripts start",
+    "client": "react-scripts start",
+    "server": "node server.js",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test --watchAll=false",
+    "test:e2e": "playwright test",
+    "install:browsers": "playwright install --with-deps"
   },
   "eslintConfig": {
     "extends": [
@@ -38,8 +45,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.59.1"
   }
 }
